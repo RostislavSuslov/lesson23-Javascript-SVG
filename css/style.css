@@ -1,0 +1,64 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.build {
+    display: flex;
+    align-items: flex-start;
+    padding: 36px;
+}
+
+.build-svg {
+    max-width: 500px;
+}
+
+.floor {
+    fill: #00e1ff00;
+    stroke: #00e1ff00;
+    stroke-width: 2px;
+
+}
+
+.floor:hover {
+    fill: #00E0FF;
+    stroke: #08D3FF;
+    fill-opacity: 0.28;
+    cursor: pointer;
+}
+
+
+.test-g:hover path{
+    fill: #ff00c3;
+    stroke: #ff00c3;
+    fill-opacity: 0.28;
+}
+/**/
+
+
+.build-info {
+    border: 1px solid #1f1f1f;
+    max-width: 400px;
+    width: 100%;
+    padding: 30px;
+    border-radius: 5px;
+}
+
+.floors,
+.flats {
+    display: flex;
+    align-items: center;
+    border: 1px solid #1f1f1f;
+    padding: 12px;
+    border-radius: 5px;
+    margin-bottom: 24px;
+}
+
+.cell {
+    font-size: 24px;
+    width: 140px;
+    text-align: center;
+    color: red;
+    margin-left: auto;
+}
